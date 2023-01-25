@@ -1,0 +1,74 @@
+<style>
+    .shadow{
+        filter: drop-shadow(6px 6px 6px rgb(98, 98, 98));
+    }
+    .opa{
+        filter: opacity (100%);
+    }
+    #pic1{
+        width: 250px;
+    }
+    .zoom {
+  padding: 30px;
+  transition: transform .2s; /* Animation */
+  width: 250px;
+  height: 250px;
+  margin: 10;
+}
+.zoom:hover {
+  transform: scale(1.6);
+
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  backdrop-filter: blur(50px);
+  background-color: rgb(255, 248, 239);
+  height: 200%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+</style>
+<body>
+<div  class="bg"; >
+<table style="margin-left:14%">
+    <tr>
+        <td class="shadow">
+            <img class="zoom" src="./images/092-TAS-Sketch_Notes_Overview-Keyword-best.max-1000x1000.png"  alt="" height="250" width="250"; padding:10px;>
+            </td>
+            <td class="shadow">
+            <img  class="zoom" src="./images/Article_Image_-_STEM_Education1.jpeg" alt="" height="250" width="250"; padding:10px;>
+            </td>
+            <td class="shadow">
+            <img style="
+                -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);" class="zoom" src="./images/Chaliye-shuru-karte-hain-bina-kisi-Binod-ke-meme-1961.jpeg"  id="pic1"  class="opa" alt="" height="250" width="250"; padding:10px;>
+        </td>
+        
+    </tr>
+
+    <tr>
+        
+            <td class="shadow">
+            <img style="opacity: 0.5;" class="zoom" src="./images/coe-144ppi.png"  class="shadow" alt="" height="250" width="250"; padding:10px;>
+            </td>
+            <td class="shadow">
+            <img class="zoom" src="./images/Modern-Education.png"class="shadow"  alt="" height="250" width="250"; padding:10px;>
+            </td>
+            <td class="shadow">
+            <img class="zoom" src="./images/modern-hand-drawn-education-concept_23-2147906438.jpeg"class="shadow"  alt="" height="250" width="250" padding:10px;>
+            </td>
+            </td>
+    </tr>
+    <video width="530px" height="330px" autoplay style="margin-left: 450px;">
+        <source class="zoom" class="shadow" src="./images/Diljit Dosanjh 'Lemonade' (Visualiser) - Drive Thru.mp4" type="video/mp4" class="shadow"alt="" height="250" width="250" padding:30px;>
+    </video>
+</table>
+</div>
+</body>
